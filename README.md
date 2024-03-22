@@ -20,6 +20,7 @@ Out of 16,000 cells (11,984 cells recovered) as described in the Chromium Single
 ## DATA ANALYSIS
 # Data Pre-processing:
 Data is retrieved from unzipped files and processed by identifying high fraction genes, filtering out cells with less than 3 detected genes, removing mitochondrial genes, and storing the count matrix as AnnData.
+(https://github.com/Anube9/PBMC-Specific-Single-Cell-RNA-seq-Clustering-and-Visualization-with-Scanpy/assets/112353734/4cc91ac2-224e-4383-bbf9-34b06dedc859)
 # Normalization and Feature selection
 Total count normalization is performed to ensure uniform counts across cells.
 Data is log normalized and highly variable genes are identified using PCA.

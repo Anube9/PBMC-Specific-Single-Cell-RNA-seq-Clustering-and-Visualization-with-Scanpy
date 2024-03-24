@@ -22,9 +22,10 @@ Out of 16,000 cells (11,984 cells recovered) as described in the Chromium Single
 Data is retrieved from unzipped files and processed by identifying high fraction genes, filtering out cells with less than 3 detected genes, removing mitochondrial genes, and storing the count matrix as AnnData. <br>
 <img width="467" alt="Screenshot 2024-03-22 at 6 03 33 PM" src="https://github.com/Anube9/PBMC-Specific-Single-Cell-RNA-seq-Clustering-and-Visualization-with-Scanpy/assets/112353734/d51a7b62-eeed-47ec-a41d-aea725b00ce0"> <br>
 The above image shows the genes that yield the highest fraction of counts in every single cell, across all cells.<br>
-<img width="716" alt="Screenshot 2024-03-24 at 1 17 44 PM" src="https://github.com/Anube9/PBMC-Specific-Single-Cell-RNA-seq-Clustering-and-Visualization-with-Scanpy/assets/112353734/96b40448-f34e-4538-a08b-46db66dff75d"><br?
-This violin plot of the number of genes expressed in the count matrix, total counts, and the percentage of the mitochondrial genes in the cell.<br>
-![image](https://github.com/Anube9/PBMC-Specific-Single-Cell-RNA-seq-Clustering-and-Visualization-with-Scanpy/assets/112353734/0c947f57-d382-4eb1-bce5-9c6dbbdf56f0) <br>
+<img width="716" alt="Screenshot 2024-03-24 at 1 17 44 PM" src="https://github.com/Anube9/PBMC-Specific-Single-Cell-RNA-seq-Clustering-and-Visualization-with-Scanpy/assets/112353734/96b40448-f34e-4538-a08b-46db66dff75d"><br>
+[image]((https://github.com/Anube9/PBMC-Specific-Single-Cell-RNA-seq-Clustering-and-Visualization-with-Scanpy/assets/112353734/96b40448-f34e-4538-a08b-46db66dff75d))
+This violin plot of the number of genes expressed in the count matrix, total counts, and the percentage of the mitochondrial genes in the cell.<br> 
+[image](https://github.com/Anube9/PBMC-Specific-Single-Cell-RNA-seq-Clustering-and-Visualization-with-Scanpy/assets/112353734/0c947f57-d382-4eb1-bce5-9c6dbbdf56f0)<br>
 
 # Normalization and Feature selection
 Total count normalization is performed to ensure uniform counts across cells.

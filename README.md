@@ -19,9 +19,9 @@ Dataset (with intronic reads) a single cell expression dataset by Cell Ranger 6.
 Out of 16,000 cells (11,984 cells recovered) as described in the Chromium Single Cell 3' Reagent Kits User Guide (v3.1 Chemistry Dual Index) (CG000315 Rev C) using the Chromium X. The reads are sequenced on an Illumina NovaSeq 6000 to a read depth of approximately 40,000 mean reads per cell.
 ## DATA ANALYSIS
 # Data Pre-processing:
-Data is retrieved from unzipped files and processed by identifying high fraction genes, filtering out cells with less than 3 detected genes, removing mitochondrial genes, and storing the count matrix as AnnData.
+Data is retrieved from unzipped files and processed by identifying high fraction genes, filtering out cells with less than 3 detected genes, removing mitochondrial genes, and storing the count matrix as AnnData. <br>
 <img width="467" alt="Screenshot 2024-03-22 at 6 03 33 PM" src="https://github.com/Anube9/PBMC-Specific-Single-Cell-RNA-seq-Clustering-and-Visualization-with-Scanpy/assets/112353734/d51a7b62-eeed-47ec-a41d-aea725b00ce0">
-shows the genes that yield the highest fraction of counts in every single cell, across all cells.
+shows the genes that yield the highest fraction of counts in every single cell, across all cells.<br>
 <img width="477" alt="Screenshot 2024-03-24 at 11 16 01 AM" src="https://github.com/Anube9/PBMC-Specific-Single-Cell-RNA-seq-Clustering-and-Visualization-with-Scanpy/assets/112353734/d8793038-1f5e-438d-94f0-1673a8e8cc11">
 A violin plot of the number of genes expressed in the count matrix, total counts, and the percentage of the mitochondrial genes in the cell.
 # Normalization and Feature selection

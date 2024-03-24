@@ -24,8 +24,8 @@ Data is retrieved from unzipped files and processed by identifying high fraction
 The above image shows the genes that yield the highest fraction of counts in every single cell, across all cells.<br>
 <img width="716" alt="Screenshot 2024-03-24 at 1 17 44 PM" src="https://github.com/Anube9/PBMC-Specific-Single-Cell-RNA-seq-Clustering-and-Visualization-with-Scanpy/assets/112353734/96b40448-f34e-4538-a08b-46db66dff75d"><br>
 This violin plot of the number of genes expressed in the count matrix, total counts, and the percentage of the mitochondrial genes in the cell.<br> 
-[image](https://github.com/Anube9/PBMC-Specific-Single-Cell-RNA-seq-Clustering-and-Visualization-with-Scanpy/assets/112353734/0c947f57-d382-4eb1-bce5-9c6dbbdf56f0)<br>
-
+<img width="679" alt="Screenshot 2024-03-24 at 1 20 14 PM" src="https://github.com/Anube9/PBMC-Specific-Single-Cell-RNA-seq-Clustering-and-Visualization-with-Scanpy/assets/112353734/65ad8744-1725-4eda-af1e-b4becbe6c7d9"><br>
+This Scatter plot shows the distribution of total gene counts in the cell’s vs mitochondrial genes and genes by counts.<br>
 # Normalization and Feature selection
 Total count normalization is performed to ensure uniform counts across cells.
 Data is log normalized and highly variable genes are identified using PCA.
